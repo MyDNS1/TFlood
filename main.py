@@ -1,4 +1,3 @@
-# by @wavous
 # пользуйтесь с удовольствием =)
 
 import shutil
