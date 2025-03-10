@@ -28,7 +28,7 @@ def draw_input(prompt):
 
 def flood_codes():
     os.system("clear")
-    draw_list("t.me/wavous_bio")
+    draw_list("Доброго времени суток!")
     print("")
     draw_list("Введите номер телефона")
     phone_number = draw_input("")
@@ -58,7 +58,7 @@ def flood_codes():
 
 def main():
 	os.system("clear")
-	draw_list("t.me/wavous_bio")
+	draw_list("Доброго времени суток!")
 	print("")
 	draw_list("1. Флуд кодами [Telegram]\n2. Информация\n3. Выход")
 	print("")
@@ -67,14 +67,14 @@ def main():
 		flood_codes()
 	elif choice == "2":
 		os.system("clear")
-		draw_list("t.me/wavous_bio")
+		draw_list("Доброго времени суток!")
 		print("")
 		draw_list("Telegram не позволяет отправить более 2-ух кодов за раз.\nВерсия софта: 1.0\n Полная версия будет доступна позже\n\nНажмите ENTER чтобы перейти в главное меню.")
 		input()
 		main()
 	elif choice == "3":
 		os.system("clear")
-		draw_list("t.me/wavous_bio")
+		draw_list("Доброго времени суток!")
 	else:
 		main()
 	
